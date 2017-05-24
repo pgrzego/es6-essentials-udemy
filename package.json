@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pgrzego/es6-essentials-udemy/issues"
   },
-  "homepage": "https://github.com/pgrzego/es6-essentials-udemy#readme"
+  "homepage": "https://github.com/pgrzego/es6-essentials-udemy#readme",
+  "devDependencies": {
+    "webpack": "^2.6.0"
+  }
 }
