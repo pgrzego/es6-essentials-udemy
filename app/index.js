@@ -29,3 +29,7 @@ function print2(...z)
 	console.log(z);
 }
 print2(1, 2, 3);
+
+let destrArray = [100, 200, 300, 400];
+let [destr1, destr2, ...destr3] = destrArray;
+console.log(destr1, destr2, destr3);
