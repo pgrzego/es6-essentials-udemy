@@ -33,3 +33,10 @@ print2(1, 2, 3);
 let destrArray = [100, 200, 300, 400];
 let [destr1, destr2, ...destr3] = destrArray;
 console.log(destr1, destr2, destr3);
+let param1 = false;
+let param2 = 2;
+let destrObject = {param1: true, param2: 6};
+//let param1 = destrObject.param1;
+//let param2 = destrObject.param2;
+({ param1, param2 } = destrObject); // Parenthesis needed as without them it would be consodered as a scope block
+console.log(param1, param2);
